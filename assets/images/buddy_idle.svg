@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft ground shadow -->
+  <ellipse cx="120" cy="215" rx="55" ry="10" fill="#2D3748" opacity="0.08"/>
+
+  <!-- Antenna -->
+  <line x1="120" y1="38" x2="120" y2="18" stroke="#4F9DFF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="120" cy="14" r="9" fill="#FFB84D"/>
+
+  <!-- Head -->
+  <rect x="62" y="40" width="116" height="92" rx="36" fill="#4F9DFF"/>
+  <rect x="62" y="40" width="116" height="92" rx="36" fill="white" opacity="0.06"/>
+
+  <!-- Face screen -->
+  <rect x="78" y="58" width="84" height="56" rx="22" fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <circle cx="106" cy="86" r="9" fill="#2D3748"/>
+  <circle cx="146" cy="86" r="9" fill="#2D3748"/>
+  <circle cx="109" cy="83" r="2.4" fill="#FFFFFF"/>
+  <circle cx="149" cy="83" r="2.4" fill="#FFFFFF"/>
+
+  <!-- Smile -->
+  <path d="M104 100 Q120 112 148 100" stroke="#2D3748" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Cheeks -->
+  <circle cx="92" cy="98" r="6" fill="#FFB84D" opacity="0.55"/>
+  <circle cx="160" cy="98" r="6" fill="#FFB84D" opacity="0.55"/>
+
+  <!-- Body -->
+  <rect x="74" y="132" width="92" height="68" rx="28" fill="#7CDE7A"/>
+
+  <!-- Chest gear / badge -->
+  <circle cx="120" cy="164" r="18" fill="#FFFFFF"/>
+  <circle cx="120" cy="164" r="18" fill="none" stroke="#4F9DFF" stroke-width="3"/>
+  <path d="M120 154 v6 M120 168 v6 M110 164 h6 M124 164 h6" stroke="#4F9DFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="164" r="5" fill="#4F9DFF"/>
+
+  <!-- Arms -->
+  <rect x="48" y="140" width="24" height="14" rx="7" fill="#FFB84D"/>
+  <rect x="168" y="140" width="24" height="14" rx="7" fill="#FFB84D"/>
+  <circle cx="44" cy="147" r="10" fill="#FFB84D"/>
+  <circle cx="196" cy="147" r="10" fill="#FFB84D"/>
+
+  <!-- Legs -->
+  <rect x="88" y="196" width="20" height="20" rx="8" fill="#4F9DFF"/>
+  <rect x="132" y="196" width="20" height="20" rx="8" fill="#4F9DFF"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft ground shadow -->
+  <ellipse cx="120" cy="215" rx="55" ry="10" fill="#2D3748" opacity="0.08"/>
+
+  <!-- Antenna with sparkle -->
+  <line x1="120" y1="38" x2="120" y2="14" stroke="#4F9DFF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="120" cy="10" r="10" fill="#00C853"/>
+  <path d="M120 -2 v6 M120 16 v6 M108 10 h6 M126 10 h6" stroke="#FFB84D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <rect x="62" y="40" width="116" height="92" rx="36" fill="#4F9DFF"/>
+
+  <!-- Face screen -->
+  <rect x="78" y="58" width="84" height="56" rx="22" fill="#FFFFFF"/>
+
+  <!-- Happy closed eyes (^_^) -->
+  <path d="M98 88 Q106 78 114 88" stroke="#2D3748" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M138 88 Q146 78 154 88" stroke="#2D3748" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Big open smile -->
+  <path d="M100 98 Q120 118 152 98 Q140 108 120 108 Q108 108 100 98 Z" fill="#2D3748"/>
+  <path d="M108 102 Q120 110 144 102" stroke="#FF8FA3" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- Rosy cheeks -->
+  <circle cx="90" cy="98" r="7" fill="#FFB84D" opacity="0.65"/>
+  <circle cx="162" cy="98" r="7" fill="#FFB84D" opacity="0.65"/>
+
+  <!-- Body -->
+  <rect x="74" y="132" width="92" height="68" rx="28" fill="#7CDE7A"/>
+
+  <!-- Chest gear / badge -->
+  <circle cx="120" cy="164" r="18" fill="#FFFFFF"/>
+  <circle cx="120" cy="164" r="18" fill="none" stroke="#00C853" stroke-width="3"/>
+  <path d="M112 164 l6 6 l12 -14" stroke="#00C853" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arms raised up in celebration -->
+  <rect x="40" y="108" width="24" height="14" rx="7" fill="#FFB84D" transform="rotate(-35 52 115)"/>
+  <rect x="176" y="108" width="24" height="14" rx="7" fill="#FFB84D" transform="rotate(35 188 115)"/>
+  <circle cx="36" cy="100" r="10" fill="#FFB84D"/>
+  <circle cx="204" cy="100" r="10" fill="#FFB84D"/>
+
+  <!-- Legs -->
+  <rect x="88" y="196" width="20" height="20" rx="8" fill="#4F9DFF"/>
+  <rect x="132" y="196" width="20" height="20" rx="8" fill="#4F9DFF"/>
+
+  <!-- Sparkles -->
+  <g fill="#FFB84D">
+    <path d="M30 60 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 z"/>
+    <path d="M205 50 l2.5 6.5 l6.5 2.5 l-6.5 2.5 l-2.5 6.5 l-2.5 -6.5 l-6.5 -2.5 l6.5 -2.5 z"/>
+  </g>
+</svg>
