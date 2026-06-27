@@ -215,15 +215,3 @@ Run the unit tests with:
 flutter test
 ```
 
-## 12. Folder Structure
-
-See [Section 3](#3-architecture) above for the annotated tree.
-
-## 13. Future Improvements
-
-- **Remote content + caching.** Swap `quiz_data.dart`'s static maps for a real API call (with the caching strategy from Section 9), so Peblo can ship new stories without an app update.
-- **Per-word highlighting during narration.** `flutter_tts`'s `setProgressHandler` exposes word-level start/end offsets; highlighting the word currently being spoken (like a karaoke effect) would reinforce reading skills, which fits Peblo's pedagogy-first mission directly.
-- **Multiple quiz questions per story**, with a small progress indicator (e.g. "Question 2 of 3"), still rendered from the same data-driven `QuizCard`.
-- **Persisted progress** (stars earned, stories completed) using local storage, surfaced back to the child as a simple reward shelf.
-- **Localization.** Poppins + the current copy are English-only; Peblo's stated audience (India and beyond) would benefit from `flutter_localizations` and translated story content fairly early.
-- **Accessibility pass.** Larger touch targets are already in place (58px buttons, generous option tiles), but a full pass with `Semantics` labels and a "reduce motion" toggle (for the shake/confetti effects) would make the app usable by a wider range of children.
